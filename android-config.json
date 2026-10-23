@@ -1,0 +1,30 @@
+# Configuración personalizada para Android
+# Este archivo se aplica después de que Capacitor genera el proyecto Android
+
+# Permisos necesarios para SerchWebView
+android_permissions = [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE"
+]
+
+# Configuración de WebView
+webview_config = {
+    "allowMixedContent": true,
+    "allowFileAccess": true,
+    "allowContentAccess": true,
+    "supportMultipleWindows": false,
+    "javaScriptEnabled": true,
+    "domStorageEnabled": true,
+    "databaseEnabled": true,
+    "appCacheEnabled": true
+}
+
+# Configuración de la app
+app_config = {
+    "minSdkVersion": 21,
+    "targetSdkVersion": 34,
+    "compileSdkVersion": 34,
+    "versionCode": 1,
+    "versionName": "1.0.0"
+}
