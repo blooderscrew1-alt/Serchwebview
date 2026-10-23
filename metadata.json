@@ -1,0 +1,6 @@
+{
+  "name": "Serchwebview",
+  "description": "Ultra-lightweight and compact web browser for opening video links without ads",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
