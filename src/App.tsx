@@ -93,7 +93,7 @@ function App() {
         <div className="flex items-center justify-between px-4 py-1.5 bg-[#1a1a1a] border-b border-[#2a2a2a] text-xs text-gray-400">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
-            <span className="font-medium">SwiftView</span>
+            <span className="font-medium">SerchWebView</span>
           </div>
           <div className="flex items-center gap-3">
             <span className="flex items-center gap-1">
@@ -136,7 +136,7 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/>
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-white">¿Salir de SwiftView?</h3>
+              <h3 className="text-lg font-semibold text-white">¿Salir de SerchWebView?</h3>
               <p className="text-sm text-gray-400 mt-1">Se cerrará el navegador</p>
             </div>
             <div className="flex gap-3">
